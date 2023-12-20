@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+.flex-box {
+  height: 100vh;
+  border: solid 4px black;
+}
+.box-1 {
+  height: 5rem;
+  width: 10%;
+
+  border: solid 4px black;
+  float: right;
+}
+
+.box-2 {
+  height: 5rem;
+  width: 10%;
+  border: solid 4px black;
+  flex: 2;
+  float: right;
+}
